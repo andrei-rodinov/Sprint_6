@@ -2,15 +2,13 @@ package com.example;
 
 import org.hamcrest.MatcherAssert;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.mockito.Mock;
-import org.mockito.junit.MockitoJUnitRunner;
+
 
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 
-@RunWith(MockitoJUnitRunner.class)
 public class AlexLionTest {
 
     @Mock
